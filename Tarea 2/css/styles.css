@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Sarabun:wght@100;200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.titulo > img{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    top: calc(50% - 450px);
+    left: calc(50% - 140px);
+
+}
+.icono > img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: calc(50% - 450px);
+    left: calc(50% + 880px);
+
+}
+
+.titulo > p{
+    color: white;
+    position: absolute;
+    font-size: 36px;
+    top: calc(50% - 300px);
+    left: calc(50% - 130px);
+
+}
+
+.lupa {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    left: 100%;
+    top: 0%;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    /*border: 2px solid white;*/
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto{
+
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.nombre{
+    color: white;
+    font-size: 20px;
+    font-weight: 10px;
+    margin: 25px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.bottom > h1{
+    position: absolute;
+    color: rgba(107, 107, 107, 0.678);
+    font-size: 20px;
+    top: 75%;
+    left: calc(50% - 90px);
+    border: 2px solid rgba(107, 107, 107, 0.678);
+
+}
+
+.texto{
+    padding: 6px;
+}
