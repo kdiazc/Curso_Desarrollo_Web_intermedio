@@ -1,0 +1,37 @@
+.ball{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: rebota 1s alternate infinite ease-in;
+}
+
+.sombra{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 288px;
+    opacity: 0.2;
+    transform: scale(0.5);
+    animation: sombra 1s alternate infinite ease-in;
+}
+
+@keyframes rebota{
+    90%{
+        height: 100px;
+    }
+
+    100%{
+        transform: translateY(200px);
+        height: 80px;
+    }
+}
+
+@keyframes sombra{
+
+    100%{
+        transform: scale(1); opacity: 0.5;
+    }
+}

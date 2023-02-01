@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    /*Esto es lo nuevo que el flex**/
+    display: flex;
+
+
+    /*Establece el tipo de eje a utilizar como MAIN AXIS*/
+
+    /*flex-direction: row;
+    /*Establece si los elementos pueden o no desbordarse si su tamaño sobre pasa al de su contener*/
+    flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
+    
+    flex-flow: wrap;
+    /* Permite agregar una separación a los laterales de cada elemento*/
+    /*gap: 10px;*/
+    /*justify-content: space-around; /*space-around: deja menor margen con el contenerdo | space-evenly deja la misma separación en todas*/
+    align-items: center;
+
+    /*align-content: flex-start;*/
+    flex-basis: 150px;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja1 {
+    background-color: #8B00FF;
+}
+
+#caja2 {
+    background-color: rgb(67, 15, 189);
+}
+#caja3 {
+    background-color: rgb(10, 132, 136);
+}
+#caja4 {
+    background-color: rgb(68, 185, 0);
+}
+#caja5 {
+    background-color: rgb(189, 189, 4);
+}

@@ -1,0 +1,85 @@
+.container{
+    position: relative;
+}
+.cuadro{
+    width: 150px;
+    height: 150px;
+    color: gray;
+    text-align: center;
+    margin: 30px;
+}
+
+/** Transiciones por separado **/
+
+.cuadro0{
+    background: rgb(146, 15, 37);
+    /*transition: background-color 2s, width 2s,height 2s;*/
+    /*Circulo
+    clip-path: circle(45% at top left);*/
+
+    /*Tiempo de espera para que se ejecute la transición*/
+    /*transition-delay:2s ;
+    transition-duration: 1s;
+    transition-property: 2s; /*Funciona para background color, width and height*/
+    transition-timing-function: ease; /*Aceleración*/
+    
+}
+
+.cuadro0:hover{
+    background: #b233ff;
+    width: 200px;
+    height: 400px;
+    clip-path: circle(150% at top left);
+}
+
+/**Transformaciones**/
+
+
+/**La escala**/
+
+.cuadro1{
+    background-color:  #047cad ;
+    transition: 1s steps(3,end);
+}
+
+.cuadro1:hover{
+    transform: scale(2,5);
+
+}
+
+
+/**Rotación**/
+.cuadro2{
+    background-color:  #c303a3 ;
+    *transition: 2s;*
+}
+
+.cuadro2:hover{
+    /***Perspective agrega un plano z 3D**/
+    transform: rotate(90deg);
+    /*transform: perspective(50px) rotateX(45deg);*/
+
+}
+
+/****Translación****/
+
+.cuadro3{
+    background-color:  #54b603 ;
+    transition: 2s linear;
+
+}
+
+.cuadro3:hover{
+    transform: translate(100px,60px);
+}
+
+
+/***Deformación***/
+
+.cuadro4{
+    background-color: #e16804;
+}
+
+.cuadro4:hover{
+    transform: skew(40deg);
+}
