@@ -91,3 +91,19 @@ body{
 .texto{
     padding: 6px;
 }
+.foto{
+    transition: 0.3s;
+}
+.foto:hover{
+    width: 325px;
+    height: 325px;
+}
+
+.texto{
+    transition: 0.3s;
+}
+.texto:hover{
+    transform: scale(1.1);
+    background-color: rgba(107, 107, 107, 0.678);
+    color:  #888c8e ;
+}
