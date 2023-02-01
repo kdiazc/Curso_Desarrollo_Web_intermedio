@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial";
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    /*max-width: 1200px;*/
+    min-height: 600px;
+    border: 2px solid black;
+/*---------------Display Grid-------------*/
+    display: grid;
+    /*grid-template-columns: repeat(4,1fr);* Se adapta altamaño fr-->Fracción is se mean*/ 
+    /*grid-template-columns: repeat(4,1fr);*/
+    /*grid-template-rows: repeat(5,1fr);
+    /*Gran función para el responsing desing
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));*/
+    /*grid-auto-rows: 100px;*/
+    /*grid-auto-columns: 100px;*/
+
+    /*Super interesate para hacer como bases*/
+    /*grid-template-areas: 
+    "a1 a1 a2 a3" 
+    "a4 a4 a5 a5"
+    "a4 a4 a5 a5";*/
+    grid-template-columns: repeat(auto-fill, minmax(200px,300px));
+}
+
+.element{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.element--1{
+    background-color: coral;
+    /*grid-area: a1;*/
+    /*grid-column: 1/3; /* Va de la columan 1 a 3*/
+    /*grid-row: 4/6;*/ /* Va de la fila 4 a 6*/
+}
+.element--2{
+    background-color: lightsteelblue;
+    /*grid-area: a2;*/
+
+}
+.element--3{
+    background-color: greenyellow;
+    /*grid-area: a3;*/
+}
+.element--4{
+    background-color: skyblue;
+    /*grid-area: a4;*/
+}
+.element--5{
+    background-color: pink;
+    /*grid-area: a5;*/
+}
+.element--6{
+    background-color: yellow;
+    /*grid-area: a6;*/
+}
