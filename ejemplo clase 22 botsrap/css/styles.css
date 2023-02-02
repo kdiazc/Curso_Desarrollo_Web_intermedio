@@ -20,3 +20,68 @@
 		src: url(../Fonts/Maven_Pro/static/MavenPro-Bold.ttf);
 	}
 
+body{
+	font-family: "Maven",sans-serif;
+}
+.navbar-brand img{
+	height: 35px;
+}
+
+.navbar-collapse{
+	/*border: solid;*/
+	/*background-color: wheat;*/
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar-nav{
+	/*border: solid;*/
+	display: block;
+
+
+	display: flex;
+	width: 100%; /*Ocupa toda la opantalla*/
+	justify-content: flex-end;
+}
+/*Comienza la parte del Carousel*/
+
+.carousel-item{
+	height: 80vh;
+
+}
+
+.carousel-item img{
+	height: 100%;
+	object-fit: cover;
+}
+
+/*Sección de Grid*/
+
+.col-patron{
+	height: 400px;
+	background-image: url(../img/patron.png);
+	padding: 8%;
+	background-size: cover; /*Para que se acomode el fondo*/
+}
+
+.div-blanca{
+	background-color: aliceblue;
+	height: 100%;
+	padding: 16%;
+	text-align: center;
+}
+
+.col-imagen{
+	height: 400px;
+	padding: 0;
+}
+
+.col-imagen img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.footer{
+	height: 200px;
+}
