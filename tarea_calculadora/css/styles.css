@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=PT+Sans&family=Sarabun:wght@100;200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anonymous Pro', monospace;
+    background-color:#4e505f  ;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.numero{
+    position: absolute;
+    background-color: #363636 ;
+    height: 100%;
+    width: 100%;
+    border: 20px solid  #191a1b   ;
+    top:0px;
+    border-radius: 20px;
+}
+
+img{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    top: 2%;
+    left: 80%;
+}
+
+.resultado{ 
+    color: #ffff;
+    position: absolute;
+    left: 30%;
+    top:40%;
+    font-size: 50px;
+}
+.teclas{
+    position: absolute;
+    /*border: 2px solid white;*/
+    width: 85%;
+    top: 50%;
+    height: 370px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.element{
+    /*border: 2px solid white;*/
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.element--y{
+    background-color:  #efd26b ;
+}
+.element--r{
+    background-color:   #5899f2  ;
+}
+.element--p{
+    background-color:    #cb72f3  ;
+}
+.element--g{
+    background-color:     #c6f372   ;
+}
+
+.element{
+    transition: 0.2s;
+}
+.element:hover{
+    height: 60px;
+    width: 60px;
+}
