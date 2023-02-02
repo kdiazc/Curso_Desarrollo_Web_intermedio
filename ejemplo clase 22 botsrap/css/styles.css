@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /**/
+}
+
+/* Fuentes */
+	@font-face{
+		font-family: Lora;
+		src: url(../Fonts/Lora/static/Lora-Regular.ttf);
+	}
+
+	@font-face{
+		font-family: Oswald;
+		src: url(../Fonts/Oswald/static/Oswald-Medium.ttf);
+	}
+
+	@font-face{
+		font-family: Maven;
+		src: url(../Fonts/Maven_Pro/static/MavenPro-Bold.ttf);
+	}
+
